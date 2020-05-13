@@ -5,7 +5,7 @@ import random
 def Challenge(level,ch_lst):
     print(f"\nLevel : {level}")   # Level
     print('''Write The Sentence Below...
-            PRESS ENTER WHEN YOU FINISHED\n''')
+            PRESS ENTER WHEN YOU FINISHED...\n''')
     enter=str(input("Press Enter To Start The Game ..."))   # to get the user ready
     if enter == '':   # press only enter to start the challenge
         print("Your Time Starts Now...")
